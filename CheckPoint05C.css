@@ -1,0 +1,392 @@
+*{
+    margin:0
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 55px;
+    align-items : center;
+    
+    position: fixed;
+     background:   rgb(253, 253, 253, 0.97) ; 
+    
+    top: 0;
+
+    z-index: 9;
+    
+    
+    
+}
+nav div  {
+     display: flex; 
+     justify-content: space-around;
+    width: 20%;
+    align-self: center;
+
+}
+.Green-Text{
+    color: rgb(70, 171, 157);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Grey-Text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(109 , 109, 109);
+
+}
+header{
+    width: 100%;
+    display: flex;
+  
+   margin-top: 100px;
+   
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    
+}
+header p {
+    margin-top: 10px;
+    font-size: 220%;
+}
+.Text {
+    width: 65%;
+    display: flex;
+    
+    
+    justify-content: space-between;
+    font-size: 50%;
+}
+.Text p {
+    
+    margin-top: 50px;
+    width: 50%;
+    
+}
+main .Two-Boxes {
+    display: flex; 
+   justify-content: space-around; 
+   width: 100%;
+justify-content: center; 
+margin-top: 50px;
+  
+
+  
+}
+.Green-Box {
+    background: rgb(0, 204, 177);
+    border-radius: 12px;
+    width: 100%;
+    margin-left: 17.5%;
+    overflow: hidden;
+   
+}
+
+
+.Blue-Box{
+    background: rgb(62, 131, 224);
+    
+    width: 100%;
+    
+    margin-right: 17.5%;
+    margin-left: 1.4%;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+main .Grey-Text{
+    color: rgb(141, 192, 244);
+    margin-left: 20px;
+    margin-top: 25px;
+    
+}
+.Thick-White{
+    color: rgb(239, 254, 254);
+    font-size: 170%;
+    font-family: Arial, Helvetica, sans-serif   ;
+    display: flex;
+  margin-top: 10px;
+    margin-left: 20px;
+   
+}
+#Country-Picker {
+    border-radius: 8px;
+   height: 10%;
+   width:  35%;
+   margin-left: 20px;
+   
+   
+}
+#Img-Green {
+    position: relative;
+    left: 203px;
+    
+    
+    
+}
+#Img-Blue {
+    position: relative;
+    left: 203px;
+    top: 40px;
+   
+}
+.Global-Companies{
+    display: flex; 
+    justify-content: space-around; 
+    width: 100%;
+ justify-content: flex-start; 
+ margin-top: 50px;
+ margin-left: 265px;
+ margin-bottom: 70px;
+ 
+    
+ 
+
+}
+.Global-Companies ul button {
+    list-style: none;
+    
+    border: none;
+    background: white;
+    color: rgb(196 , 196 , 196);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+    
+
+    
+}
+.Global-Companies ul {
+    list-style: none;   
+    margin-left: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+}
+.Global-Companies .Green-Text {
+    font-size: 160%;
+}
+.Giant-Green-Box{
+        background:  rgb(217, 246, 245);
+        width: 100%;
+        height: 600px;
+        overflow: hidden ;
+        display: flex;
+        justify-content: space-evenly;
+        
+
+        
+        
+}
+     #Giant-Logo {
+    position: relative;
+    left: 50px;
+    top: 50px;
+    
+}
+.Giant-Green-Box .Green-Text{
+    margin-left: 180px;
+    margin-top: 80px;
+    font-size: 195%;
+
+}
+
+.Giant-Green-Box .Grey-Text{
+    color: grey;
+    margin-left:  180px;
+}
+.White-Boxes {
+    
+    width: 670px;
+    display: flex;
+    
+  
+}
+#Flag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    height: 200px;
+    width: 75%;
+    border-radius: 8px;
+
+    
+    
+}
+.White-Boxes div #Small-Logos {
+    width: 35px;
+    height: 40px;
+}
+.Boxes-Line01{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    margin-top: 60px;
+    width: 50%;
+    height: 650px;
+}
+#Users{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    height: 250px;
+    width: 75%;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+.Boxes-Line02{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    height: 480px;
+}
+#Calendar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    height: 200px;
+    width: 75%; 
+    border-radius: 8px;
+
+}
+.Green {
+    display: flex;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(50, 160, 145);
+    font-size: 120%;
+    text-align: center;
+
+}
+#Doctors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    height: 200px;
+    width: 75%; 
+    border-radius: 8px; 
+
+
+}
+.Sum-Up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.Sum-Up :first-child{
+    color: rgb(50, 160, 145);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 201%;
+    text-align: center;
+}
+
+.Grey {
+text-align: center;
+color: grey;
+}
+.Posters-Line01{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 100px;
+    
+    
+   
+}
+
+.Poster01 div   {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.Poster02 div{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.Poster03 div{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.Poster02{
+    margin-right: 20px;
+    margin-left: 20px;
+    
+    
+}
+
+.Posters-Line01 img{
+    border-radius: 6px;
+}
+.Posters-Line01 p{
+
+    font-size: 125%;
+    color: grey;
+}
+.Buttons {
+    color: white;
+    background: rgb(62, 131, 224);
+    border: none;
+    border-radius: 8px;
+}
+.Poster01:hover, .Poster02:hover , .Poster03:hover {
+    box-shadow: 0 0 20px rgba(33,33,33,0.2);
+}
+.Posters-Line02{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 100px;
+    
+    
+   
+}
+.Posters-Line02 img{
+    border-radius: 6px;
+}
+.Posters-Line02 p{
+
+    font-size: 125%;
+    color: grey;
+}
+.Poster05{
+    margin-right: 20px;
+    margin-left: 20px;
+    
+    
+}
+.Poster04 div   {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.Poster05 div{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.Poster06 div{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.Poster04:hover, .Poster05:hover , .Poster06:hover {
+    box-shadow: 0 0 20px rgba(33,33,33,0.2);
+}
+.End{
+    margin-top: 50px;
+}
